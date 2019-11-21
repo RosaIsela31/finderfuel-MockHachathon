@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/RosaIsela31/finderfuel-MockHachathon/precache-manifest.fc5420040855e0fc2fa1ac5cd30b98ee.js"
+  "/RosaIsela31/finderfuel-MockHachathon/precache-manifest.c9c01ba9d1397959b88018e194f81ee7.js"
 );
 
 self.addEventListener('message', (event) => {
