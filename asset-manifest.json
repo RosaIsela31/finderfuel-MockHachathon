@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/RosaIsela31/finderfuel-MockHachathon/static/css/main.8e1a194f.chunk.css",
+    "main.js": "/RosaIsela31/finderfuel-MockHachathon/static/js/main.0942c8d6.chunk.js",
+    "main.js.map": "/RosaIsela31/finderfuel-MockHachathon/static/js/main.0942c8d6.chunk.js.map",
+    "runtime-main.js": "/RosaIsela31/finderfuel-MockHachathon/static/js/runtime-main.358e8f9f.js",
+    "runtime-main.js.map": "/RosaIsela31/finderfuel-MockHachathon/static/js/runtime-main.358e8f9f.js.map",
+    "static/js/2.d5e69e67.chunk.js": "/RosaIsela31/finderfuel-MockHachathon/static/js/2.d5e69e67.chunk.js",
+    "static/js/2.d5e69e67.chunk.js.map": "/RosaIsela31/finderfuel-MockHachathon/static/js/2.d5e69e67.chunk.js.map",
+    "index.html": "/RosaIsela31/finderfuel-MockHachathon/index.html",
+    "precache-manifest.fc5420040855e0fc2fa1ac5cd30b98ee.js": "/RosaIsela31/finderfuel-MockHachathon/precache-manifest.fc5420040855e0fc2fa1ac5cd30b98ee.js",
+    "service-worker.js": "/RosaIsela31/finderfuel-MockHachathon/service-worker.js",
+    "static/css/main.8e1a194f.chunk.css.map": "/RosaIsela31/finderfuel-MockHachathon/static/css/main.8e1a194f.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.358e8f9f.js",
+    "static/js/2.d5e69e67.chunk.js",
+    "static/css/main.8e1a194f.chunk.css",
+    "static/js/main.0942c8d6.chunk.js"
+  ]
+}
