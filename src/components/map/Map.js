@@ -3,7 +3,7 @@ import { GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
 
 import CurrentLocation from './CurrentLocation';
 
-import * as dataGas from './data/gasstations.json';
+//import * as dataGas from './data/gasstations.json';
 
 export class MapContainer extends Component {
   state = {
