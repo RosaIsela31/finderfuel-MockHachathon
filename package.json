@@ -4,21 +4,25 @@
   "private": true,
   "homepage": "https://github.com/RosaIsela31/finderfuel-MockHachathon",
   "dependencies": {
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
     "gh-pages": "^2.1.1",
     "google-maps-react": "^2.0.2",
     "node-sass": "^4.13.0",
+    "path": "^0.12.7",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
+    "react-icons": "^3.8.0",
     "react-scripts": "3.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
