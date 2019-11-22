@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/RosaIsela31/finderfuel-MockHachathon/static/css/main.22566584.chunk.css",
-    "main.js": "/RosaIsela31/finderfuel-MockHachathon/static/js/main.6906d010.chunk.js",
-    "main.js.map": "/RosaIsela31/finderfuel-MockHachathon/static/js/main.6906d010.chunk.js.map",
+    "main.css": "/RosaIsela31/finderfuel-MockHachathon/static/css/main.3dc471ec.chunk.css",
+    "main.js": "/RosaIsela31/finderfuel-MockHachathon/static/js/main.16e1c2d0.chunk.js",
+    "main.js.map": "/RosaIsela31/finderfuel-MockHachathon/static/js/main.16e1c2d0.chunk.js.map",
     "runtime-main.js": "/RosaIsela31/finderfuel-MockHachathon/static/js/runtime-main.358e8f9f.js",
     "runtime-main.js.map": "/RosaIsela31/finderfuel-MockHachathon/static/js/runtime-main.358e8f9f.js.map",
-    "static/js/2.effa5404.chunk.js": "/RosaIsela31/finderfuel-MockHachathon/static/js/2.effa5404.chunk.js",
-    "static/js/2.effa5404.chunk.js.map": "/RosaIsela31/finderfuel-MockHachathon/static/js/2.effa5404.chunk.js.map",
+    "static/js/2.f0b5c808.chunk.js": "/RosaIsela31/finderfuel-MockHachathon/static/js/2.f0b5c808.chunk.js",
+    "static/js/2.f0b5c808.chunk.js.map": "/RosaIsela31/finderfuel-MockHachathon/static/js/2.f0b5c808.chunk.js.map",
     "index.html": "/RosaIsela31/finderfuel-MockHachathon/index.html",
-    "precache-manifest.c9c01ba9d1397959b88018e194f81ee7.js": "/RosaIsela31/finderfuel-MockHachathon/precache-manifest.c9c01ba9d1397959b88018e194f81ee7.js",
+    "precache-manifest.eacbcd3a85a4ffbfeba7da3d37f7c6bf.js": "/RosaIsela31/finderfuel-MockHachathon/precache-manifest.eacbcd3a85a4ffbfeba7da3d37f7c6bf.js",
     "service-worker.js": "/RosaIsela31/finderfuel-MockHachathon/service-worker.js",
-    "static/css/main.22566584.chunk.css.map": "/RosaIsela31/finderfuel-MockHachathon/static/css/main.22566584.chunk.css.map"
+    "static/css/main.3dc471ec.chunk.css.map": "/RosaIsela31/finderfuel-MockHachathon/static/css/main.3dc471ec.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.358e8f9f.js",
-    "static/js/2.effa5404.chunk.js",
-    "static/css/main.22566584.chunk.css",
-    "static/js/main.6906d010.chunk.js"
+    "static/js/2.f0b5c808.chunk.js",
+    "static/css/main.3dc471ec.chunk.css",
+    "static/js/main.16e1c2d0.chunk.js"
   ]
 }
