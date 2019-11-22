@@ -4,7 +4,7 @@ import { GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
 import CurrentLocation from './CurrentLocation';
 import NameList from '../../views/NameList';
 
-//import * as dataGas from './data/gasstations.json';
+import * as gasData from './locations.json';
 
 export class MapContainer extends Component {
   state = {
@@ -36,11 +36,17 @@ export class MapContainer extends Component {
         google={this.props.google}
        
       >
-       
-          <Marker onClick={this.onMarkerClick} name={'current location'} 
-             />
-        ))}
+        {gasData.gasdata.map((station)=>(
+    
         
+       
+          <Marker  key={station.location} 
+          position={{
+            lat:station.location.x,
+            lng:station.location.y,
+          }} onClick={this.onMarkerClick} name={'current location'} />
+        
+          ))}
         <InfoWindow
           marker={this.state.activeMarker}
           visible={this.state.showingInfoWindow}
