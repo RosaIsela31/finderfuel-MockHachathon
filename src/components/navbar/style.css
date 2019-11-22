@@ -1,4 +1,51 @@
 .navbar-container{
+<<<<<<< HEAD
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .mechanical{
+    background-color: #00597B;
+    height: 4rem;
+    width: 7.5rem;
+    float: left;
+  }
+  
+  .foryou{
+    background-color: #00597B;
+    height: 4rem;
+    width: 7.5rem;
+    margin-left: 6.5rem;
+  }
+  
+  .routes{
+    background-color: #00597B;
+    height: 4rem;
+    width: 7.5rem;
+    margin-left: 12.5rem;
+  }
+  
+  .filter{
+    background-color: #00597B;
+    height: 4rem;
+    width: 7.5rem;
+    margin-left: 18.5rem;
+  }
+  
+  .filter,
+  .mechanical,
+  .foryou,
+  .routes{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: white;
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+=======
   display: flex;
   flex-direction: row;
 }
@@ -44,3 +91,4 @@
   font-size: 2rem;
   padding-top: 1rem;
 }
+>>>>>>> upstream/master
