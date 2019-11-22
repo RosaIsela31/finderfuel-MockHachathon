@@ -3,6 +3,8 @@ import { GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
 
 import CurrentLocation from './CurrentLocation';
 
+import * as dataGas from './data/gasstations.json';
+
 export class MapContainer extends Component {
   state = {
     showingInfoWindow: false,
@@ -31,8 +33,15 @@ export class MapContainer extends Component {
       <CurrentLocation
         centerAroundCurrentLocation
         google={this.props.google}
+       
       >
-        <Marker onClick={this.onMarkerClick} name={'current location'} />
+        {dataGas.map((gasStore)=>(
+          <Marker onClick={this.onMarkerClick} name={'current location'} key={gasStore.properties.place_id} 
+          position={{
+            lat:gasStore.location.y,
+            lng:gasStore.location.x}} />
+        ))}
+        
         <InfoWindow
           marker={this.state.activeMarker}
           visible={this.state.showingInfoWindow}
