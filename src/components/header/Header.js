@@ -1,4 +1,8 @@
 import React from 'react'
+<<<<<<< HEAD
+=======
+import { Link } from 'react-router-dom';
+>>>>>>> upstream/master
 import './style.css';
 
 import { FaUserCircle } from "react-icons/fa";
@@ -10,9 +14,17 @@ const Header = () => {
   return (
     <div className='header'>
       <FaUserCircle  className='icon-user'/>
-      <p>Gasolinas</p>
+<<<<<<< HEAD
+      <p>Gasolineras</p>
       <MdSearch  className='magnifying-glass'/>
       <MdViewList />
+=======
+      <p>Gasolinas</p>
+      <MdSearch  className='magnifying-glass'/>
+      <Link to={'/pemex'}>
+      <MdViewList />
+      </Link>
+>>>>>>> upstream/master
     </div>
   )
 }

@@ -5,6 +5,7 @@
   "homepage": "https://github.com/RosaIsela31/finderfuel-MockHachathon",
   "dependencies": {
     "axios": "^0.19.0",
+    "lodash": "^4.17.15",
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
     "gh-pages": "^2.1.1",

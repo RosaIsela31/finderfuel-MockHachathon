@@ -1,0 +1,67 @@
+.welcome-body{
+    background-image: url(../img/Inicio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.title{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+    font-size: 220%;
+    font-weight: bold;
+}
+.parrafos-bold{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 128%;
+    font-weight: bolder;
+}
+.gas{
+    display: flex;
+    margin: 10%;
+    margin-left: 45%;
+    margin-bottom: 20%;
+}
+.parrafos-text{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 95%;
+    font-weight: 400;
+    padding: 20% 20% 5% 20%;
+}
+.square{
+    background-image: url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 25%;
+    padding: 2%;
+    margin-top: 3%;
+    width: 50%;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #00597B;
+    border: 0px solid;
+}
+#button-of{
+    background-color: rgba(0, 0, 0, 0.5);
+}

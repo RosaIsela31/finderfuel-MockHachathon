@@ -1,7 +1,16 @@
 .container-map{
+<<<<<<< HEAD
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 5rem;
+  }
+=======
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
   margin-top: 5rem;
 }
+>>>>>>> upstream/master

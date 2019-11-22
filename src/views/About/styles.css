@@ -1,0 +1,67 @@
+.w-about{
+    background-image: url(../../img/Inicio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.parrafos-bold{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 128%;
+    font-weight: bolder;
+}
+.img-circular{
+    display: flex;
+    margin: 10%;
+    margin-top: 25%;
+    margin-left: 32%;
+    margin-bottom: 10%
+}
+.parrafos-text{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 95%;
+    font-weight: 400;
+    padding: 20% 20% 5% 20%;
+}
+/* .wallpaper{
+    background-color: rgba(0, 0, 0, .5);
+    width: 370px;
+    height: 680px;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    float: right;
+    
+} */
+.square-gde{
+    background-image: url(../../img/Rectangle-gde.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 25%;
+    padding: 2%;
+    margin-top: 3%;
+    width: 50%;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #00597B;
+    border: 0px solid;
+}

@@ -1,0 +1,9 @@
+.w-publish{
+    background-image: url(../../img/Informacion.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #d3d2d2;
+}
