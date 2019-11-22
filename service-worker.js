@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/RosaIsela31/finderfuel-MockHachathon/precache-manifest.8a8033f68bf6b05e7dd1e7866c4a02f3.js"
+  "/RosaIsela31/finderfuel-MockHachathon/precache-manifest.3fb9b9118b960a0d71cabc211d3a6ad1.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -35,5 +35,5 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/RosaIsela31/finderfuel-MockHachathon/index.html"), {
   
-  blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
+  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
