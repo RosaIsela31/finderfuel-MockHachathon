@@ -6,6 +6,7 @@ import { MdSearch } from "react-icons/md";
 import { MdViewList } from "react-icons/md";
 
 import pemexpng from '../../img/gasolinera2.jpg'
+import Like from '../../likecomponents/Like';
 
 
 class Header  extends Component  {
@@ -38,6 +39,7 @@ class Header  extends Component  {
       </div>
         <img src={pemexpng}  className='pemexpng' alt='pemexpng'/>
         <div className='inf-gas'>
+          <Like/>
           <p>Yucatan No.155 Esq. C.U. Benito Juárez, 06700 
             <br/>
             Xalapa Enríquez, CDMX

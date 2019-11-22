@@ -1,0 +1,15 @@
+.FaStar {
+	font-size: 30px;
+	color: rgb(189, 188, 188);
+}
+
+.FaStar :hover{
+	font-size: 55px;
+	color: rgb(255, 230, 0);
+	cursor: pointer;
+}
+.LikesNumber{
+	color: rgb(110, 110, 110);
+	font-size: 130%;
+	margin-left: 5%;
+}
