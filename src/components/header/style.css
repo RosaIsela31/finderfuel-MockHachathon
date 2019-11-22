@@ -1,25 +1,4 @@
 .header{
-<<<<<<< HEAD
-    background-color: #00597B;
-    height: 5rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    color: white;
-    font-size: 2rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  
-  .icon-user{
-    margin-right: 1rem;
-    margin-left: 2rem;
-  }
-  
-  .magnifying-glass{
-    margin-left: 6rem;
-  }
-=======
   background-color: #00597B;
   height: 5rem;
   display: flex;
@@ -39,4 +18,3 @@
 .magnifying-glass{
   margin-left: 6rem;
 }
->>>>>>> upstream/master
